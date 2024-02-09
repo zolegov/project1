@@ -1,67 +1,101 @@
-/* ========================== MOBILE-STYLE ========================== */
-
 .logo {
   width: 52px;
   height: 18px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  color: currentColor;
+  font-family: Inter;
   font-size: 14px;
-  letter-spacing: 0.03em;
-  color: #1b414b;
-  display: block;
-  padding: 16px 0;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.4px;
+  text-align: left;
 }
-
-.header {
-  border: 1px solid #fbfbfb;
+.mobil-modal-header {
+  border: 1px solid rgb(251, 251, 251);
   border-radius: 8px;
-  background-color: #fbfbfb;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  margin: 12px 12px;
-}
-
-.header-container {
+  background: rgb(251, 251, 251);
+  padding: 12px 20px;
+  /* margin-top: 16px; */
+  color: rgb(27, 65, 75);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 320px;
+  margin-bottom: 200px;
+  height: 46px;
+}
+.mobil-modal-header-wrap {
+  padding-top: 20px;
+}
+.is-open {
+  display: block;
+}
+ 
+.mobil-header {
+  border: 1px solid rgb(251, 251, 251);
+  border-radius: 8px;
+  background: rgb(251, 251, 251);
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: rgb(27, 65, 75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 335px;
+}
+.header-btn-open {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  fill: rgb(5, 85, 69);
+  stroke: rgb(5, 85, 69);
+  background-color: transparent;
+  border: none;
+}
+.header-btn-close {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  fill: rgb(5, 85, 69);
+  stroke: rgb(5, 85, 69);
+  background-color: transparent;
+  border: none;
+  margin-right: 4px;
+}
+.mobil-modal-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 363px;
+}
+.mobil-modal-soc {
+  display: flex;
+  gap: 13px;
+  fill: #fff;
+  width: 88px;
+  margin: 0 auto;
 }
 
-.open-menu-btn {
+.mobil-modal-nav-item {
+  border-radius: 8px;
+  background: rgb(27, 65, 75, 0.5);
+  width: 91px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 24px;
-  height: 24px;
-  stroke: #1b414b;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  padding: 0;
+  margin: 0 auto;
+  color: rgb(251, 251, 251);
+  font-size: 9px;
+  line-height: 1.3;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.active {
+  background: rgb(27, 65, 75);
 }
 
-@media screen and (max-width: 767px) {
-  .header-menu {
-    display: none;
-  }
+.is-close {
+  display: none;
 }
-
-@media screen and (max-width: 762px) {
-  .address-list {
-    display: none;
-  }
-}
-
-/* ========================== /MOBILE-STYLE ========================== */
-
-/* ========================== TABLET-STYLE ========================== */
-
-/* ========================== /TABLET-STYLE ========================== */
-
-/* ========================== DESKTOP-STYLE ========================== */
-
-/* ========================== /DESKTOP-STYLE ========================== */

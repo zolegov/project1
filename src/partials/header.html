@@ -1,42 +1,44 @@
-<header class="header">
-  <div class="container header-container">
-    <a href="index.html" class="logo">yachtjet</a>
-    <nav class="top-nav">
-      <ul class="header-menu">
-        <li class="header-menu-item"><a href="">About HI</a></li>
-        <li class="header-menu-item"><a href="">Yachts</a></li>
-        <li class="header-menu-item"><a href="">Reviews</a></li>
+<header>
+  <div class="container">
+    <div class="mobil-header">
+      <a href="index.html" class="logo">yachtjet</a>
+      <button type="submit" class="header-btn-open">
+        <svg class="icon" width="24" height="24">
+          <use href="../img/icons.svg#bb-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobil-modal-header-wrap is-close">
+      <div class="mobil-modal-header">
+        <a href="index.html" class="logo">yachtjet</a>
+        <button type="submit" class="header-btn-close">
+          <svg class="icon" width="16" height="16">
+            <use href="../img/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+      <ul class="mobil-modal-nav">
+        <li class="mobil-modal-nav-item active">About</li>
+        <li class="mobil-modal-nav-item">Yachts</li>
+        <li class="mobil-modal-nav-item">Reviews</li>
       </ul>
-    </nav>
-    <address class="address-list">
-      <ul class="contacts">
-        <li class="contacts-item">
-          <a class="contacts-item-link" href=""
-            ><svg class="contacts-icon" width="24" height="24">
-              <use href="../img/icons.svg#instagram"></use>
-            </svg>
-          </a>
+      <ul class="mobil-modal-soc">
+        <li>
+          <svg class="icon" width="20" height="20">
+            <use href="./icons.svg#instagram"></use>
+          </svg>
         </li>
-        <li class="contacts-item">
-          <a class="contacts-item-link" href=""
-            ><svg class="contacts-icon" width="24" height="24">
-              <use href="../img/icons.svg#youtube"></use>
-            </svg>
-          </a>
+        <li>
+          <svg class="icon" width="20" height="20">
+            <use href="./icons.svg#youtube"></use>
+          </svg>
         </li>
-        <li class="contacts-item">
-          <a class="contacts-item-link" href=""
-            ><svg class="contacts-icon" width="24" height="24">
-              <use href="../img/icons.svg#facebook"></use>
-            </svg>
-          </a>
+        <li>
+          <svg class="icon" width="20" height="20">
+            <use href="./icons.svg#facebook"></use>
+          </svg>
         </li>
       </ul>
-    </address>
-    <button class="open-menu-btn" type="button">
-      <svg class="open-menu-btn-icon">
-        <use href="../img/icons.svg#bb-menu"></use>
-      </svg>
-    </button>
+    </div>
   </div>
 </header>
