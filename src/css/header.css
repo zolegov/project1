@@ -1,0 +1,67 @@
+/* ========================== MOBILE-STYLE ========================== */
+
+.logo {
+  width: 52px;
+  height: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #1b414b;
+  display: block;
+  padding: 16px 0;
+}
+
+.header {
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  background-color: #fbfbfb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  margin: 12px 12px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+}
+
+.open-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  stroke: #1b414b;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .address-list {
+    display: none;
+  }
+}
+
+/* ========================== /MOBILE-STYLE ========================== */
+
+/* ========================== TABLET-STYLE ========================== */
+
+/* ========================== /TABLET-STYLE ========================== */
+
+/* ========================== DESKTOP-STYLE ========================== */
+
+/* ========================== /DESKTOP-STYLE ========================== */
