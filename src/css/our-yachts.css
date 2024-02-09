@@ -1,0 +1,154 @@
+.our-yachts-container {
+}
+
+.our-yachts-title {
+  color: #fbfbfb;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  width: 319px;
+  margin-top: 80px;
+}
+
+.our-yachts-list-items {
+  margin-bottom: 40px;
+}
+
+.our-yachts-list {
+  display: flex;
+  width: 335px;
+  height: 478px;
+  padding-left: 1px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: #fbfbfb;
+  margin-top: 40px;
+}
+
+.our-yachts-photo {
+  margin-top: 16px;
+  border-radius: 24px;
+}
+
+.our-yachts-name-type {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 125px;
+  margin-top: 32px;
+}
+
+.our-yachts-name-type::after {
+  content: '';
+  position: absolute;
+  border-radius: 2px;
+  background: #0403061a;
+  width: 272px;
+  height: 1px;
+  margin-top: 16px;
+}
+
+.yachts-name {
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+
+.yachts-type {
+  color: #040306;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 32px;
+}
+
+.our-yachts-categories {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 114px;
+}
+
+.our-yachts-categories-first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.yachts-categories-items {
+  color: #040306;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.our-yachts-categories-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.yachts-categories-results {
+  color: #040306;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.yacht-rental-btn {
+  display: block;
+  padding: 14px 32px;
+  margin: 0 auto;
+  align-items: flex-start;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  background: #0e1823;
+  color: #fbfbfb;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  min-width: 141px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.yacht-rental-btn:hover {
+  display: inline-flex;
+  padding: 14px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 15px;
+  background: #fbfbfb;
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
